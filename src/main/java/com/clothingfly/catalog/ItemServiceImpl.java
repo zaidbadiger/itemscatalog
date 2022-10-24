@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class ItemServiceImpl implements ItemService{
-    
+
     private final TempItemRepository itemRepository;
 
     public ItemServiceImpl(TempItemRepository itemRepository){
