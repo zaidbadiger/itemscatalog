@@ -11,4 +11,6 @@ public interface ItemService {
     Long getQuantitybyId(Long id);
 
     Item save(Item item);
+
+    void updateItemInventory(Long id, Long quantity);
 }

@@ -1,19 +1,28 @@
 package com.clothingfly.catalog;
 
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
-import org.springframework.data.annotation.Id;
+import javax.persistence.Id;
 
 @Entity
+@Table(name = "items")
 public class Item {
 
     @Id
+    @Column
     private long id;
+    @Column
     private String name;
+    @Column
     private float price;
+    @Column
     private String imageUrl;
+    @Column
     private long quantity;
+    @Column
     private long inventory;
 
     public long getId() {
@@ -55,6 +64,10 @@ public class Item {
 
     public void setQuantity(long quantity) {
         this.quantity = quantity;
+    }
+
+    public Item(){
+        
     }
 
     public Item(long id, String name, float price, long quantity, long inventory, String imageUrl) {
