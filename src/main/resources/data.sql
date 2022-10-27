@@ -1,4 +1,12 @@
-INSERT INTO TBL_EMPLOYEES (first_name, last_name, email) VALUES
-  ('Lokesh', 'Gupta', 'abc@gmail.com'),
-  ('Deja', 'Vu', 'xyz@email.com'),
-  ('Caption', 'America', 'cap@marvel.com');
+-- INSERT INTO TBL_EMPLOYEES (first_name, last_name, email) VALUES
+--   ('Lokesh', 'Gupta', 'abc@gmail.com'),
+--   ('Deja', 'Vu', 'xyz@email.com'),
+--   ('Caption', 'America', 'cap@marvel.com');
+
+-- INSERT INTO ITEMS(ID, IMAGE_URL, INVENTORY, NAME, PRICE, QUANTITY) VALUES
+--   (1, '/assets/stripe-t-shirt.png', 5, 'Red Striped T-Shirt',30.0,0),
+--   (2, '/assets/working-pants.png', 5, 'Loose Working Pants',46.0,0),
+--   (3, '/assets/jordan-1-retro.png', 5, 'Jordan 1 Retro High',215.0,0),
+--   (4, '/assets/ugg-crew-socks.png', 5, 'Slouchy Crew Socks',12.0,0),
+--   (5, '/assets/ducks-unlimited-hat.png', 5, 'Ducks Unlimited Hat',25.0,0),
+--   (6, '/assets/fossil-gold-watch.png', 5, 'Fossil Gold Watch',130.0,0);
