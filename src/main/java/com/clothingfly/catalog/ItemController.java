@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -29,7 +30,7 @@ public class ItemController {
         return itemService.getItembyId(id);
     }
 
-    @PostMapping("/items/{id}/{quantity}")
+    @PutMapping("/items/{id}/{quantity}")
     public void updateItemInventory(@PathVariable Long id, @PathVariable Long quantity){
         itemService.updateItemInventory(id, quantity);
     }
