@@ -13,6 +13,6 @@ import org.springframework.stereotype.Repository;
 public interface ItemRepository extends JpaRepository<Item, Long>{
     @Modifying
     @Transactional
-    @Query(value="update ITEMS i set i.INVENTORY = (i.INVENTORY - :quantity) where i.id = :id", nativeQuery = true)
+    @Query(value="update ORDERS i set i.INVENTORY = (i.INVENTORY - :quantity) where i.id = :id", nativeQuery = true)
     void updateInventory(@Param(value = "id") long id, @Param(value = "quantity") long quantity);
 }

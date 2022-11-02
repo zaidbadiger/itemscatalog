@@ -53,7 +53,6 @@ public class Item {
         this.inventory = inventory;
     }
 
-
     public void setName(String name) {
         this.name = name;
     }
@@ -67,7 +66,7 @@ public class Item {
     }
 
     public Item(){
-        
+
     }
 
     public Item(long id, String name, float price, long quantity, long inventory, String imageUrl) {
