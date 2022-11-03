@@ -44,3 +44,21 @@ Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection wa
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
 	... 17 more
+2022-11-02 19:00:24 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ORDERS" not found; SQL statement:
+update ORDERS i set i.INVENTORY = (i.INVENTORY - ?) where i.id = ? [42102-214]
+2022-11-02 19:00:24 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ORDERS" not found; SQL statement:
+update ORDERS i set i.INVENTORY = (i.INVENTORY - ?) where i.id = ? [42102-214]
+2022-11-02 19:03:07 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ORDERS" not found; SQL statement:
+update ORDERS i set i.INVENTORY = (i.INVENTORY - ?) where i.id = ? [42102-214]
+2022-11-02 19:03:07 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ORDERS" not found; SQL statement:
+update ORDERS i set i.INVENTORY = (i.INVENTORY - ?) where i.id = ? [42102-214]
+2022-11-02 19:11:43 jdbc[24]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ORDERS" not found; SQL statement:
+update ORDERS i set i.INVENTORY = (i.INVENTORY - ?) where i.id = ? [42102-214]
+2022-11-02 19:11:43 jdbc[25]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ORDERS" not found; SQL statement:
+update ORDERS i set i.INVENTORY = (i.INVENTORY - ?) where i.id = ? [42102-214]
