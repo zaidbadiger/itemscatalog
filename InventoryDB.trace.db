@@ -62,3 +62,9 @@ update ORDERS i set i.INVENTORY = (i.INVENTORY - ?) where i.id = ? [42102-214]
 2022-11-02 19:11:43 jdbc[25]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ORDERS" not found; SQL statement:
 update ORDERS i set i.INVENTORY = (i.INVENTORY - ?) where i.id = ? [42102-214]
+2022-11-02 22:33:26 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ORDERS" not found; SQL statement:
+update ORDERS i set i.INVENTORY = (i.INVENTORY - ?) where i.id = ? [42102-214]
+2022-11-02 22:33:26 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ORDERS" not found; SQL statement:
+update ORDERS i set i.INVENTORY = (i.INVENTORY - ?) where i.id = ? [42102-214]
